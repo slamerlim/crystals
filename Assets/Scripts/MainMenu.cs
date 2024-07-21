@@ -17,7 +17,6 @@ public class MainMenu : MonoBehaviour
     
     public void StartGame()
     {
-
         waitText.SetActive(true);
         StartCoroutine(LoadSceneAfterWait(2f));
         
